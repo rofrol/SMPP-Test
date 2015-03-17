@@ -67,9 +67,7 @@ PDU dialog to display the Contents of the PDU as sent or received.
 6. The Batch test tool
 ----------------------
 
-Usage: java -cp "/path/to/OpenSMPP.jar:/path/to/jdom.jar" \
-       uk.org.youngman.smpp.test.batch.BatchClient \
-       batch_file.xml batch.log
+Usage: java -cp "$HOME/.m2/repository/org/opensmpp/opensmpp-core/3.0.1-SNAPSHOT/opensmpp-core-3.0.1-SNAPSHOT.jar:$HOME/.m2/repository/org/jdom/jdom/1.1.3/jdom-1.1.3.jar:build/libs/SMPP-Test.jar" uk.org.youngman.smpp.test.batch.BatchClient batch_example.xml batch.log
 
 The batch test tool supports scripted SMPP testing. It reads an XML
 file with instructions on where to connect, what PDUs to send, whether
