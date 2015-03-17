@@ -26,7 +26,7 @@ This software is released under the GNU General Public License version
 3. Requirements
 ---------------
 
-These tools require Java6, ant, OpenSMPP
+These tools require Java6, gradle, OpenSMPP
 (https://www.gnu.org/licenses/licenses.html) and JDOM
 (http://www.jdom.org/).
 
